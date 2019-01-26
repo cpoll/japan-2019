@@ -9,4 +9,4 @@ relative_links:
 include:
   - index.md
 
-theme: jekyll-theme-hacker
+theme: jekyll-theme-midnight
