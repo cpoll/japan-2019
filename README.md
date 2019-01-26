@@ -1,3 +1,3 @@
 # Japan Pics (Github Pages)
 
-[https://cpoll.github.io/japan-2019/]
+https://cpoll.github.io/japan-2019/
