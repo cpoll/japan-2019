@@ -11,7 +11,8 @@ Test
 
 <script>
  # If I were the code reviewer and not the author, I would not approve inline js
- (function () {
+ # jQuery is there, why not use it?
+ $().ready(function () {
     const foodButton = document.getElementById('foodbutton');
 
     function pressFoodButton() {
@@ -20,5 +21,5 @@ Test
   
     foodButton.addEventListener('click', pressFoodButton);
   
- })();
+ });
 </script>
