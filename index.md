@@ -15,15 +15,15 @@ Test
  $().ready(function () {
     const foodButton = document.getElementById('foodbutton');
     const hideFoodText = "Hide Food Pics";
-    const showFoodPics = "Show Food Pics";
+    const showFoodText = "Show Food Pics";
 
     function pressFoodButton() {
-      if (foodButton.innerText === hideFoodPics) {
-        foodButton.innerText = showFoodPics;
+      if (foodButton.innerText === hideFoodText) {
+        foodButton.innerText = showFoodText;
         $('.foodpics').hide();
       }
       else {
-        foodButton.innerText = hideFoodPics;
+        foodButton.innerText = hideFoodText;
         $('.foodpics').show();
       }
     }
