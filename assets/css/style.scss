@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hide topbar stuff */
+#header, span.credits.left, span.credits.right {
+  display: none;
+}
